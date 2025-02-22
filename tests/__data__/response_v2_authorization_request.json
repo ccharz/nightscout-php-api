@@ -1,0 +1,12 @@
+{
+    "token": "TESTTOKEN",
+    "sub": "test",
+    "permissionGroups": [
+        [
+            "*"
+        ],
+        []
+    ],
+    "iat": 1740146555,
+    "exp": 1740175355
+}

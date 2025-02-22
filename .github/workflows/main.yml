@@ -1,0 +1,47 @@
+name: Run pint and tests
+
+on: [push]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      COMPOSER_NO_INTERACTION: 1
+
+    strategy:
+      fail-fast: true
+      matrix:
+        php: [8.3, 8.4]
+
+    name: PHP ${{ matrix.php }}
+
+    steps:
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: json, dom, curl, libxml, mbstring
+          tools: composer:v2
+          coverage: none
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Cache Vendor
+        id: cache-vendor
+        uses: actions/cache@v3
+        with:
+          path: vendor
+          key: ${{ runner.os }}-${{ matrix.php }}-vendor-${{ hashFiles('**/composer.lock') }}
+
+      - name: Install Dependencies
+        if: steps.cache-vendor.outputs.cache-hit != 'true' # Skip if cache hit
+        run: |
+          composer remove "rector/rector" --dev --no-update
+          composer update -q --no-ansi --prefer-dist --no-interaction --no-progress --no-scripts
+
+      - name: Execute tests
+        run: vendor/bin/phpunit

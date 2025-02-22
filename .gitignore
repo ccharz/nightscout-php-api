@@ -1,0 +1,10 @@
+/vendor/
+/.vscode
+/.vagrant
+.phpunit.result.cache
+
+/coverage/
+composer.lock
+.phpunit.cache
+tests/__snapshots__/*
+tests/samples/*
