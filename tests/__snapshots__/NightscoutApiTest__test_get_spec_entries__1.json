@@ -1,0 +1,222 @@
+[
+    {
+        "date": {
+            "date": "2025-02-21 18:16:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 18:16:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 215,
+        "delta": 12,
+        "direction": "SingleUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8c302dfd24ab081e0bfa8"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 18:11:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 18:11:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 203,
+        "delta": 6,
+        "direction": "FortyFiveUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8c1d5dfd24ab081e0bead"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 18:06:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 18:06:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 197,
+        "delta": 18,
+        "direction": "DoubleUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8c0aadfd24ab081e0bd44"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 18:01:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 18:01:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 179,
+        "delta": 12,
+        "direction": "SingleUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8bf7edfd24ab081e0bbd8"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 17:56:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 17:56:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 167,
+        "delta": 8,
+        "direction": "FortyFiveUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8be50dfd24ab081e0ba7d"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 17:46:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 17:46:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 149,
+        "delta": 10,
+        "direction": "SingleUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8bce9dfd24ab081e0b8e5"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 17:41:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 17:41:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 137,
+        "delta": 7,
+        "direction": "FortyFiveUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8bacedfd24ab081e0b75e"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 17:36:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 17:36:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 130,
+        "delta": 8,
+        "direction": "FortyFiveUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8b9a2dfd24ab081e0b6be"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 17:31:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 17:31:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 122,
+        "delta": 8,
+        "direction": "FortyFiveUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8b875dfd24ab081e0b5cd"
+    },
+    {
+        "date": {
+            "date": "2025-02-21 17:21:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "sysTime": {
+            "date": "2025-02-21 17:21:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "type": "sgv",
+        "sgv": 112,
+        "delta": 2,
+        "direction": "SingleUp",
+        "noise": 1,
+        "rssi": 100,
+        "filtered": 0,
+        "unfiltered": 0,
+        "device": "xDrip-CLFollower CareLink Follow",
+        "id": "67b8b70fdfd24ab081e0b517"
+    }
+]

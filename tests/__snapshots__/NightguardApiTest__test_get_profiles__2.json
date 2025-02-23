@@ -1,0 +1,117 @@
+{
+    "created_at": {
+        "date": "2024-03-07 17:52:33.034000",
+        "timezone_type": 2,
+        "timezone": "Z"
+    },
+    "defaultProfile": "a",
+    "mills": 0,
+    "srvModified": {
+        "date": "2024-03-07 17:52:33.034000",
+        "timezone_type": 1,
+        "timezone": "+00:00"
+    },
+    "startDate": {
+        "date": "1970-01-01 00:00:00.000000",
+        "timezone_type": 2,
+        "timezone": "Z"
+    },
+    "units": "mg\/dl",
+    "store": {
+        "DEV": {
+            "name": "DEV",
+            "carbs_hr": 20,
+            "dia": 2,
+            "delay": 20,
+            "timezone": "Europe\/Vienna",
+            "basal": [
+                {
+                    "time": "H:i",
+                    "value": 0.1,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "carbratio": [
+                {
+                    "time": "H:i",
+                    "value": 30,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "sens": [
+                {
+                    "time": "H:i",
+                    "value": 100,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "target_high": [
+                {
+                    "time": "H:i",
+                    "value": 180,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "target_low": [
+                {
+                    "time": "H:i",
+                    "value": 80,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "startDate": {
+                "date": "1970-01-01 00:00:00.000000",
+                "timezone_type": 2,
+                "timezone": "Z"
+            }
+        },
+        "a": {
+            "name": "a",
+            "carbs_hr": 20,
+            "dia": 2.5,
+            "delay": 20,
+            "timezone": "UTC",
+            "basal": [
+                {
+                    "time": "H:i",
+                    "value": 0.1,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "carbratio": [
+                {
+                    "time": "H:i",
+                    "value": 30,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "sens": [
+                {
+                    "time": "H:i",
+                    "value": 100,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "target_high": [
+                {
+                    "time": "H:i",
+                    "value": 0,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "target_low": [
+                {
+                    "time": "H:i",
+                    "value": 0,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "startDate": {
+                "date": "1970-01-01 00:00:00.000000",
+                "timezone_type": 2,
+                "timezone": "Z"
+            }
+        }
+    },
+    "_id": "65db5fcf47ec1a5bf66d2ed6"
+}

@@ -1,4 +1,4 @@
-name: Run pint and tests
+name: Run tests
 
 on: [push]
 

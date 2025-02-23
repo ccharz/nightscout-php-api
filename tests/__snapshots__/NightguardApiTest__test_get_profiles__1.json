@@ -1,0 +1,208 @@
+[
+    {
+        "starts_at": {
+            "date": "1970-01-01 00:00:00.000000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "created_at": {
+            "date": "2024-03-07 17:52:33.034000",
+            "timezone_type": 2,
+            "timezone": "Z"
+        },
+        "default_profile": "a",
+        "units": "mg\/dl",
+        "profiles": [
+            {
+                "name": "DEV",
+                "carb_absorption_per_hour": 20,
+                "hours_of_insulin_action": 2,
+                "delay": 20,
+                "timezone": "Europe\/Vienna",
+                "basalRate": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 0.1
+                    }
+                ],
+                "carbRatio": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 30
+                    }
+                ],
+                "insulinSensibilityFactor": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 100
+                    }
+                ],
+                "targetBloodSugarHigh": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 180
+                    }
+                ],
+                "targetBloodSugarLow": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 80
+                    }
+                ]
+            },
+            {
+                "name": "a",
+                "carb_absorption_per_hour": 20,
+                "hours_of_insulin_action": 2.5,
+                "delay": 20,
+                "timezone": "UTC",
+                "basalRate": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 0.1
+                    }
+                ],
+                "carbRatio": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 30
+                    }
+                ],
+                "insulinSensibilityFactor": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 100
+                    }
+                ],
+                "targetBloodSugarHigh": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 0
+                    }
+                ],
+                "targetBloodSugarLow": [
+                    {
+                        "time": {
+                            "y": 0,
+                            "m": 0,
+                            "d": 0,
+                            "h": 0,
+                            "i": 0,
+                            "s": 0,
+                            "f": 0,
+                            "invert": 0,
+                            "days": false,
+                            "from_string": false
+                        },
+                        "value": 0
+                    }
+                ]
+            }
+        ],
+        "id": "65db5fcf47ec1a5bf66d2ed6",
+        "updated_at": {
+            "date": "2024-03-07 17:52:33.034000",
+            "timezone_type": 1,
+            "timezone": "+00:00"
+        }
+    }
+]

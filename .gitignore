@@ -6,5 +6,4 @@
 /coverage/
 composer.lock
 .phpunit.cache
-tests/__snapshots__/*
 tests/samples/*

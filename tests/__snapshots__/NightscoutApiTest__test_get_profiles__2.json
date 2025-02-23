@@ -1,0 +1,54 @@
+{
+    "created_at": "2025-02-21T13:17:46.000Z",
+    "defaultProfile": "Default",
+    "mills": 0,
+    "srvModified": "1740143866614000",
+    "startDate": "1970-01-01T00:00:00.000Z",
+    "units": "mg\/dl",
+    "store": {
+        "Default": {
+            "name": "Default",
+            "carbs_hr": 20,
+            "dia": 3,
+            "delay": 20,
+            "timezone": "UTC",
+            "basal": [
+                {
+                    "time": "00:00",
+                    "value": 0.1,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "carbratio": [
+                {
+                    "time": "00:00",
+                    "value": 30,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "sens": [
+                {
+                    "time": "00:00",
+                    "value": 100,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "target_high": [
+                {
+                    "time": "00:00",
+                    "value": 0,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "target_low": [
+                {
+                    "time": "00:00",
+                    "value": 0,
+                    "timeAsSeconds": 0
+                }
+            ],
+            "startDate": "1970-01-01T00:00:00.000Z"
+        }
+    },
+    "_id": "67b87ceed41132febd3a6217"
+}
