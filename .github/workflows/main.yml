@@ -44,4 +44,4 @@ jobs:
           composer update -q --no-ansi --prefer-dist --no-interaction --no-progress --no-scripts
 
       - name: Execute tests
-        run: vendor/bin/phpunit --fail-on-incomplete --fail-on-skipped --fail-on-risky --verbose
+        run: vendor/bin/phpunit --fail-on-incomplete --fail-on-skipped --fail-on-risky
